@@ -101,6 +101,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             setAnnotation(latitude: 51.5080390, longitude: -0.1280690, delta: 0.01, title: "트라팔가 광장", subtitle: "Trafalgar Square, London WC2N 5DN 영국")
             self.lblLocationInfo1.text = "보고 계신 위치"
             self.lblLocationInfo2.text = "트라팔가 광장"
+        } else if sender.selectedSegmentIndex == 3 {
+            // Tour de 에펠 ㅋㄷㅋㄷㅋㄷ
+            setAnnotation(latitude: 48.8583700, longitude: 2.2944810, delta: 0.01, title: "에펠탑", subtitle: "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, 프랑스")
+            self.lblLocationInfo1.text = "보고 계신 위치"
+            self.lblLocationInfo2.text = "에펠탑"
         }
     }
 
